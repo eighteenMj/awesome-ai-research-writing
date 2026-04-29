@@ -485,7 +485,7 @@ Underscore, Unveil, Vibrant
 
 ````markdown
 # Role
-你是一位世界顶尖的学术插画专家，专注于为计算机视觉与人工智能领域的顶级会议（如 CVPR, NeurIPS, ICLR）绘制高质量、直观且美观的论文架构图。
+你是一位世界顶尖的学术插画专家，专注于为计算机视觉与人工智能领域的顶级期刊（如 IEEE TWC,IEEE TMC）绘制高质量、直观且美观的论文架构图。
 
 # Task
 请阅读我提供的【论文方法描述】，首先深刻理解其核心机制、模块组成和数据流向。然后，基于你的理解，设计并绘制一张专业的学术架构图。
@@ -523,7 +523,7 @@ Underscore, Unveil, Vibrant
 多人反馈，在调用nano banana时，使用下面的英文版本的prompt效果会更好（可能与nano banana训练数据有关），建议使用时中英文版本都可以进行尝试，根据自己的审美取最优：
 
 ````markdown
-"""You are an expert Scientific Illustrator for top-tier AI conferences (NeurIPS/CVPR/ICML).
+"""You are an expert Scientific Illustrator for top-tier Top Journals(such as IEEE TWC,IEEE TMC).
 Your task is to generate a professional "Illustration" (main figure for the paper) based on a research paper abstract and methodology.
 
 **Abstract:**
@@ -550,7 +550,7 @@ Highlight the core novelty. Ensure the connection logic makes sense."""
 针对实验结果绘图（主要从LLM方向论文考虑），给出下述prompt用以图表类型推荐。此外，具体绘图时的配色选择可参考[颜色选择器](https://htmlcolorcodes.com/zh/yanse-xuanze-qi/)。需要注意的是，审美判断具有主观性，LLM的推荐结果仅供参考。
 ````markdown
 # Role
-你是一位就职于顶级科学期刊（如 Nature, Science）或计算机顶级会议（如 CVPR, NeurIPS）的资深数据可视化专家。你拥有极高的学术审美，严谨且专业。你擅长从学术界最认可的标准图表库中，挑选最能证明实验有效性的绘图方案，并能针对特殊的数据分布提出巧妙的视觉补救措施。
+你是一位就职于顶级科学期刊（如 Nature, Science）或计算机顶级期刊（如 IEEE TWC,IEEE TMC）的资深数据可视化专家。你拥有极高的学术审美，严谨且专业。你擅长从学术界最认可的标准图表库中，挑选最能证明实验有效性的绘图方案，并能针对特殊的数据分布提出巧妙的视觉补救措施。
 
 # 标准学术图表库
 在推荐前，请优先参考以下图表类型，选择最精确的一个或多个：
